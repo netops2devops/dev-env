@@ -1,6 +1,6 @@
 # Get latest Debian base container image
 FROM debian:latest
-MAINTAINER Kapil Agrawal "kagraw@illinois.edu"
+MAINTAINER netops2devops
 
 RUN apt update
 RUN apt upgrade
