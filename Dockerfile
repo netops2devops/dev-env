@@ -3,7 +3,7 @@ FROM debian:latest
 MAINTAINER netops2devops "netops2devops@netops2devops.net"
 
 RUN apt update
-RUN apt upgrade
+RUN apt -y upgrade
 RUN apt install -y zsh
 RUN apt install -y wget
 RUN apt install -y curl
