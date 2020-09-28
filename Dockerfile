@@ -54,3 +54,5 @@ ENV TERM xterm-256color
 
 # Install oh-my-zsh in the end
 # sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# echo "export PROMPT_EOL_MARK=''" >> ~/.zshrc
